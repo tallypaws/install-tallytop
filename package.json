@@ -1,0 +1,33 @@
+{
+  "name": "@thetally/install-tallytop",
+  "version": "1.1.0",
+  "author": "Tally",
+  "license": "MIT",
+  "description": "an install for tallycord",
+  "keywords": [],
+  "bin": {
+    "installtallytop": "dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json && cp -r src/assets dist/assets",
+    "dev": "tsc --watch --project tsconfig.json",
+    "start": "node --enable-source-maps ./dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@thetally/toolbox": "^1.0.0",
+    "pencil-case": "^0.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.1",
+    "typescript": "^5.9.3"
+  },
+  "type": "module"
+}
