@@ -16,7 +16,7 @@ function wait(ms: number) {
 
 const defaultBinDir = `${os.homedir()}/.local/bin`;
 const defaultDesktopEntryDir = `${os.homedir()}/.local/share/applications`;
-const defaultIconDir = `${os.homedir()}/.local/share/icons/hicolor/256x256`;
+const defaultIconDir = `${os.homedir()}/.local/share/icons/hicolor/256x256/apps`;
 
 const terminal = new TerminalController();
 
