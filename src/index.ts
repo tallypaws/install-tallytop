@@ -417,11 +417,14 @@ await wait(150);
 
 const desktopEntryLine = terminal.line("Creating desktop entry...");
 
+// jamie paige is goated with the sauce
+// watch her bust it down sexual-style
+
 const desktopEntryContent = `
 [Desktop Entry]
 Name=Tallytop
 Exec=${path.join(resolvedPath!, "tallytop")} %U
-Icon=${iconResolvedPath}
+Icon=${iconResolvedPath}tallytop.png
 Type=Application
 Categories=Utility;
 Terminal=false
