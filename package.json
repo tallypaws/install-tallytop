@@ -1,6 +1,6 @@
 {
   "name": "@thetally/install-tallytop",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "Tally",
   "license": "MIT",
   "description": "an install for tallycord",

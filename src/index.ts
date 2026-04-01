@@ -424,7 +424,7 @@ const desktopEntryContent = `
 [Desktop Entry]
 Name=Tallytop
 Exec=${path.join(resolvedPath!, "tallytop")} %U
-Icon=${iconResolvedPath}tallytop.png
+Icon=${iconResolvedPath}/tallytop.png
 Type=Application
 Categories=Utility;
 Terminal=false
